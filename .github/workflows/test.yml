@@ -13,7 +13,6 @@ jobs:
           token: ${{ secrets.PAT_WITH_WORKFLOW_SCOPE }}
           cron: |
             */2 * * * *
-            */1 * * * *
           # optional: set workflow id or file name
           workflow: test.yml
           # optional: Defaults to "ci($WORKFLOW_NAME): update cron schedule: $CRON_EXPRESSIONS".
