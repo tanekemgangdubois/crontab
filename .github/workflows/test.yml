@@ -1,7 +1,6 @@
 name: Reminder
 on:
-  schedule:
-    - cron: "*/2 * * * *"
+  push:
 
 jobs:
   reminder:
